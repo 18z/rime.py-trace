@@ -1,4 +1,4 @@
-## 中州韻輸入法研究
+## 中州韻奇幻旅程 - 中州韻輸入法研究
 
 依照 [rime.py](https://github.com/lotem/rime.py) 安裝完成後。
 /usr/share/ibus-rime 目錄檔案結構如下。
