@@ -6,8 +6,8 @@ import zime
 
 #from gettext import dgettext
 #_  = lambda a : dgettext("ibus-zime", a)
-_ = lambda a : a
-N_ = lambda a : a
+_ = lambda a: a
+N_ = lambda a: a
 
 
 class EngineFactory(ibus.EngineFactoryBase):
@@ -42,4 +42,3 @@ class EngineFactory(ibus.EngineFactoryBase):
 
     def __config_value_changed_cb(self, config, section, name, value):
         zime.ZimeEngine.CONFIG_VALUE_CHANGED(self.__bus, section, name, value)
-

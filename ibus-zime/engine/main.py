@@ -7,7 +7,9 @@ import ibus
 import gobject
 import factory
 
+
 class IMApp:
+
     def __init__(self, exec_by_ibus):
         self.__component = ibus.Component("cn.ha.zz.sst.Zime",
                                           "ZIME Component",
@@ -38,11 +40,12 @@ class IMApp:
         self.__mainloop.quit()
 
 
-def print_help(out, v = 0):
+def print_help(out, v=0):
     print >> out, "-i, --ibus             execute by ibus."
     print >> out, "-h, --help             show this message."
     print >> out, "-d, --daemonize        daemonize ibus"
     sys.exit(v)
+
 
 def main():
     daemonize = False
