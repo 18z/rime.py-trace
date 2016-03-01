@@ -1,57 +1,45 @@
 ## 中州韻奇幻旅程 - 中州韻輸入法研究
 
-依照 [rime.py](https://github.com/lotem/rime.py) 安裝完成後。
-/usr/share/ibus-rime 目錄檔案結構如下。
+注意：以下筆記根據 rime.py 中 0c3be 版本所作。
+
+依照 [rime.py](https://github.com/lotem/rime.py/tree/0c3be786d9d73de0956e884d7616b477df559015) 安裝完成後。
+/usr/share/ibus-zime 目錄檔案結構如下。
 
 ```bash
-$ tree -L 2 /usr/share/ibus-rime
-/usr/share/ibus-rime
+$ tree -L 2 /usr/share/ibus-zime/
+/usr/share/ibus-zime/
 ├── data
-│   ├── ComboPinyin.txt
-│   ├── DoublePinyin.txt
+│   ├── combo-pinyin-schema.txt
+│   ├── create-schema.py
 │   ├── jyutping-keywords.txt
-│   ├── Jyutping.txt
+│   ├── jyutping-schema.txt
 │   ├── make-phrases.py
 │   ├── phrases.txt
 │   ├── pinyin-keywords.txt
 │   ├── pinyin-phrases.txt
-│   ├── Pinyin.txt
-│   ├── quick-keywords.txt
-│   ├── Quick.txt
-│   ├── schema_jyutping.bat
-│   ├── schema_pinyin.bat
-│   ├── schema_quick.bat
-│   ├── schema_tonal_pinyin.bat
-│   ├── schema_wu.bat
-│   ├── schema_zhuyin.bat
-│   ├── tonal-pinyin-keywords.txt
-│   ├── tonal-pinyin-phrases.txt
-│   ├── TonalPinyin.txt
-│   ├── translate-keywords.py
-│   ├── wu-extra-phrases.txt
-│   ├── wu-keywords.txt
-│   ├── Wu.txt
+│   ├── pinyin-schema.txt
+│   ├── test-keywords.txt
+│   ├── test-schema.txt
+│   ├── zhung-keywords.txt
+│   ├── zhung-schema.txt
 │   ├── zhuyin-keywords.txt
 │   ├── zhuyin-phrases.txt
-│   ├── Zhuyin.txt
-│   └── zimedb-admin.py
+│   ├── zhuyin-schema.txt
+│   └── zhuyin-to-pinyin.py
 ├── engine
-│   ├── algebra.py
-│   ├── builder.py
-│   ├── composer.py
-│   ├── context.py
-│   ├── core.py
-│   ├── engine.py
 │   ├── factory.py
-│   ├── __init__.py
 │   ├── main.py
-│   ├── processor.py
-│   ├── rime.py
-│   ├── segmentation.py
-│   └── storage.py
+│   ├── stylo
+│   ├── test.py
+│   └── zime.py
 └── icons
-    ├── zhung.png
-    └── zhung.xcf
+    ├── chinese.svg
+    ├── english.svg
+    ├── full-letter.svg
+    ├── full-punct.svg
+    ├── half-letter.svg
+    ├── half-punct.svg
+    └── zhung.png
 ```
 
 ### data
@@ -59,11 +47,10 @@ $ tree -L 2 /usr/share/ibus-rime
 假設是使用注音輸入法，則重點應該在於幾個檔案。
 
 ```
+create-schema.py
+zhuyin-schema.txt
 zhuyin-keywords.txt
-zhuyin-phraces.txt
-Zhuyin-txt
-zimedb-admin.py
-make-phraces.py
+zhuyin-phrases.txt
 ```
 
 ### engine
@@ -73,14 +60,14 @@ make-phraces.py
 
 ```bash
 $ ps aux|grep ibus
-deanboo+  2218  0.3  0.1 436220  5292 ?        Ssl  09:26   0:07 /usr/bin/ibus-daemon --daemonize --xim
-deanboo+  2275  0.0  0.0 280880  3460 ?        Sl   09:26   0:00 /usr/lib/ibus/ibus-dconf
-deanboo+  2288  0.1  0.4 489040 17876 ?        Sl   09:26   0:02 /usr/lib/ibus/ibus-ui-gtk3
-deanboo+  2290  0.0  0.2 386816  9484 ?        Sl   09:26   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
-deanboo+  2311  0.0  0.0 205156  3544 ?        Sl   09:26   0:00 /usr/lib/ibus/ibus-engine-simple
-deanboo+  2397  0.1  0.9 114712 38952 ?        S    09:26   0:02 python /usr/share/ibus-rime/engine/main.py --ibus
-deanboo+  2806  0.0  0.3 472604 13476 ?        Sl   09:29   0:00 /usr/lib/ibus/ibus-engine-chewing --ibus
-deanboo+  3747  0.0  0.0  15948   920 pts/23   S+   10:01   0:00 grep ibus
+amtb      1636  0.8  0.4 303676  9380 ?        Ssl  13:51   0:03 /usr/bin/ibus-daemon --daemonize --xim
+amtb      1672  0.0  0.3 296040  7968 ?        Sl   13:51   0:00 /usr/lib/ibus/ibus-dconf
+amtb      1675  0.3  1.5 493484 30852 ?        Sl   13:51   0:01 /usr/lib/ibus/ibus-ui-gtk3
+amtb      1680  0.0  0.7 397020 15380 ?        Sl   13:51   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+amtb      1818  0.1  0.4 220184  9872 ?        Sl   13:51   0:00 /usr/lib/ibus/ibus-engine-simple
+amtb      1878  0.1  1.2 482424 26424 ?        Sl   13:51   0:00 /usr/lib/ibus/ibus-engine-chewing --ibus
+amtb      2949  0.1  0.8  89432 16876 ?        S    13:56   0:00 python /usr/share/ibus-zime/engine/main.py --ibus
+amtb      3039  0.0  0.1  15976  2172 pts/23   S+   13:59   0:00 grep ibus
 
 推測引擎的進入點是 main.py。
 ```
