@@ -7,3 +7,4 @@
 | 3    | zime.py       | [筆記](zime-note.md)       |
 | 4    | zimeengine.py | [筆記](zimeengine-note.md) |
 | 5    | zimedb.py     | [筆記](zimedb-note.md)     |
+| 6    | zimecore.py   | [筆記](zimecore-note.md)     |
