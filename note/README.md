@@ -9,3 +9,4 @@
 | 5    | zimedb.py     | [筆記](zimedb-note.md)     |
 | 6    | zimecore.py   | [筆記](zimecore-note.md)   |
 | 7    | zimemodel.py  | [筆記](zimemodel-note.md)  |
+| 8    | create-schema.py  | [筆記](create-schema-note.md)  |
