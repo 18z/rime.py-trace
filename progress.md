@@ -24,3 +24,8 @@
     Internal:
     Definition and functions for IBus internal use.
     ```
+5. A IBus-panel is an UI which provides UI components such as language bar, property buttons and so on.
+    
+    ```
+    IBus-panel 提供使用者介面，components 有 language bar, property buttons 等。
+    ```
