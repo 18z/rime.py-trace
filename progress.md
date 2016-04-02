@@ -39,3 +39,6 @@
     ```
 
 7. 觀察 [rime.py](https://github.com/deanboole/rime.py-trace/blob/master/ibus-rime/engine/rime.py) 與 [engine.py](https://github.com/ibus/ibus/blob/master/ibus/engine.py) 中的函式。例：update_preedit, update_preedit_text
+
+8. 發現 [rime.py](https://github.com/deanboole/rime.py-trace/blob/a801e253353baca0fbce06b99f1aedebdd93a7c2/ibus-rime/engine/rime.py) 中的 page_up 是繼承自 [ibus/engine.py](https://github.com/ibus/ibus/blob/master/ibus/engine.py)，並利用 [ibus/lookuptable.py](https://github.com/ibus/ibus/blob/master/ibus/lookuptable.py) 進行改寫。
+
