@@ -37,3 +37,5 @@
     此部分列出必要的 classes and functions for input method engine building。
     例如引擎規格及 class abstracts。
     ```
+
+7. 觀察 [rime.py](https://github.com/deanboole/rime.py-trace/blob/master/ibus-rime/engine/rime.py) 與 [engine.py](https://github.com/ibus/ibus/blob/master/ibus/engine.py) 中的函式。例：update_preedit, update_preedit_text
