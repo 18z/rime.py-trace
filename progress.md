@@ -29,3 +29,11 @@
     ```
     IBus-panel 提供使用者介面，components 有 language bar, property buttons 等。
     ```
+
+6. An Input method engine is an implementation of certain input method. Here lists essential classes and functions for input method engine building, such as engine specification, and class abstracts.
+
+    ```
+    Input method engine 就是實作特定 input method。
+    此部分列出必要的 classes and functions for input method engine building。
+    例如引擎規格及 class abstracts。
+    ```
