@@ -43,3 +43,6 @@
 8. 發現 [rime.py](https://github.com/deanboole/rime.py-trace/blob/a801e253353baca0fbce06b99f1aedebdd93a7c2/ibus-rime/engine/rime.py) 中的 page_up 是繼承自 [ibus/engine.py](https://github.com/ibus/ibus/blob/master/ibus/engine.py)，並利用 [ibus/lookuptable.py](https://github.com/ibus/ibus/blob/master/ibus/lookuptable.py) 進行改寫。
 
 9. 感覺研究初期可以先關注 [rime.py](https://github.com/deanboole/rime.py-trace/blob/a801e253353baca0fbce06b99f1aedebdd93a7c2/ibus-rime/engine/rime.py) 中的函式是怎麼 implement 而非關注 [ibus/lookuptable.py](https://github.com/ibus/ibus/blob/master/ibus/lookuptable.py) 中的。
+
+10. 試試將將 rime.py 中的 page_up, page_down 內容調換？
+
