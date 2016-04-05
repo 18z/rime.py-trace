@@ -46,3 +46,8 @@
 
 10. 試試將將 rime.py 中的 page_up, page_down 內容調換？
 
+11. This part lists functions for configuring IBus and engines. Since most configuration files are in XML format, XML handling functions are also listed here.
+
+    ```
+    此部分列出的 functions是用來 configuring IBus 跟 engines。絕大多數的 configuration 檔案都是 XML 格式，XML handling functions 也都會被列在這裡。 
+    ```
