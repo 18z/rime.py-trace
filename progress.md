@@ -51,3 +51,5 @@
     ```
     此部分列出的 functions是用來 configuring IBus 跟 engines。絕大多數的 configuration 檔案都是 XML 格式，XML handling functions 也都會被列在這裡。 
     ```
+
+12. rime.py 中 page_up, page_down function 互換後，按鍵盤上的 page up, page down 鍵可看到更改後結果。
