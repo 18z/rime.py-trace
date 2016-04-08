@@ -57,3 +57,5 @@
 13. 調試 rime.py 中其他函式看看。 
 
 14. rime.py 中 cursor_up, cursor_down function 互換後，選字時按方向鍵下 cursor 會往上，按上則往下。
+
+15. rime.py 中，將 ```self.__page_size = storage.DB.read_setting(u'Option/PageSize') or 5``` 5 改為 10，候選字從五個改成十個。
