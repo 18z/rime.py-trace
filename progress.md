@@ -63,3 +63,5 @@
 16. rime.py 中 ```__all__ ``` 似乎與 [python 手冊 6.4.1. 小節](https://docs.python.org/2/tutorial/modules.html)中講述的不同？
 
 17. rime.py 中，```import storage``` 是 import engine/storage.py。 
+
+18. rime.py 中，觀察到 core, engine 都是用 ```from ... import * ```，但 storage 卻直接用 ```import```。兩種用法差別是？
