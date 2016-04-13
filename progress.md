@@ -65,3 +65,5 @@
 17. rime.py 中，```import storage``` 是 import engine/storage.py。 
 
 18. rime.py 中，觀察到 core, engine 都是用 ```from ... import * ```，但 storage 卻直接用 ```import```。兩種用法差別是？
+
+19. import module，在使用 module function 時，前綴須帶 module name。例如要用到 storage.py 中的 read_setting 時，就要寫 ```storage.DB.read_setting(u'Option/PageSize')```。
