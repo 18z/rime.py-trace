@@ -68,4 +68,6 @@
 
 19. import module，在使用 module function 時，前綴須帶 module name。例如要用到 storage.py 中的 read_setting 時，就要寫 ```storage.DB.read_setting(u'Option/PageSize')```。
 
-20. ```from module import *``` 則是在使用 module function 時，不需要 module name 為前綴。以上例來說，可直接用 read_setting。 
+20. ```from module import *``` 則是在使用 module function 時，不需要 module name 為前綴。以上例來說，可直接用 read_setting。
+
+21. rime.py 中，class RimeSession 繼承自 [ibus.EngineBase](https://github.com/ibus/ibus/blob/0432aa66b8728bc266da3c2cca84587bc44b3557/ibus/engine.py) 與在 core.py 中定義的 class [Frontend](https://github.com/deanboole/rime.py-trace/blob/366ee52b59f796d8f42dbdc27feb19bf37eb7030/ibus-rime/engine/core.py)。
