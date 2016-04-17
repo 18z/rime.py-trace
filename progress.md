@@ -73,3 +73,5 @@
 21. rime.py 中，class RimeSession 繼承自 [ibus.EngineBase](https://github.com/ibus/ibus/blob/0432aa66b8728bc266da3c2cca84587bc44b3557/ibus/engine.py) 與在 core.py 中定義的 class [Frontend](https://github.com/deanboole/rime.py-trace/blob/366ee52b59f796d8f42dbdc27feb19bf37eb7030/ibus-rime/engine/core.py)。
 
 22. 下一步看的是 Class RimeSession 中的 ```def __init__(self, conn, object_path):``` 
+
+23. 看 [python 手冊](https://docs.python.org/2/tutorial/classes.html) 逐步探索 Class 的各種問題。 
