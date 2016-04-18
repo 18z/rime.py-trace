@@ -75,3 +75,25 @@
 22. 下一步看的是 Class RimeSession 中的 ```def __init__(self, conn, object_path):``` 
 
 23. 看 [python 手冊](https://docs.python.org/2/tutorial/classes.html) 逐步探索 Class 的各種問題。 
+
+24. class variable 與 instance variable 的差別。
+
+    ```python
+    class Dog:
+
+    kind = 'canine'         # class variable shared by all instances
+
+    def __init__(self, name):
+        self.name = name    # instance variable unique to each instance
+
+    >>> d = Dog('Fido')
+    >>> e = Dog('Buddy')
+    >>> d.kind                  # shared by all dogs
+    'canine'
+    >>> e.kind                  # shared by all dogs
+    'canine'
+    >>> d.name                  # unique to d
+    'Fido'
+    >>> e.name                  # unique to e
+    'Buddy'
+    ```
