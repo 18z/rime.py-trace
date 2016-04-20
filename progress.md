@@ -101,3 +101,5 @@
     ```
 
 25. 目標 class 中的 super，試圖理解其原理。
+
+26. Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class.  節錄自 [Python 手冊](https://docs.python.org/2/library/functions.html?highlight=super#super)
