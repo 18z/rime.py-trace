@@ -103,3 +103,6 @@
 25. 目標 class 中的 super，試圖理解其原理。
 
 26. Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class.  節錄自 [Python 手冊](https://docs.python.org/2/library/functions.html?highlight=super#super)
+
+27. [rime.py](https://github.com/18z/rime.py-trace/blob/a801e253353baca0fbce06b99f1aedebdd93a7c2/ibus-rime/engine/rime.py) 中 ```super(RimeSession, self).__init__(conn, object_path)```，呼叫的是 ibus.EngineBase 還是 Frontend 的 ```__init__``` ?
+
