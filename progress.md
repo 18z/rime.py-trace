@@ -108,4 +108,6 @@
 
 28. 是 ibus.EngineBase 的。因為 Frontend 沒有 ```__init__```。 
 
+29. 若有一個以上繼承，使用 super 時會呼叫哪個 class 的 ```__init__```？ 
+
 
