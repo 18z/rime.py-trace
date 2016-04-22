@@ -106,3 +106,6 @@
 
 27. [rime.py](https://github.com/18z/rime.py-trace/blob/a801e253353baca0fbce06b99f1aedebdd93a7c2/ibus-rime/engine/rime.py) 中 ```super(RimeSession, self).__init__(conn, object_path)```，呼叫的是 ibus.EngineBase 還是 Frontend 的 ```__init__``` ?
 
+28. 是 ibus.EngineBase 的。因為 Frontend 沒有 ```__init__```。 
+
+
