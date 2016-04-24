@@ -110,4 +110,25 @@
 
 29. 若有一個以上繼承，使用 super 時會呼叫哪個 class 的 ```__init__```？ 
 
+30. 簡單實驗：結果呼叫的是 class B 的 __init__, class A 沒出現。若 class C(B, A): A, B 順序調換，則呼叫 class A 的 __init__。 
 
+    ```python
+    class A(object):
+        def __init__(self):
+            print "entering A"
+            print "leaving A"
+ 
+    class B(object):
+        def __init__(self):
+            print "entering B"
+         #super(B, self).__init__()
+            print "leaving B"
+ 
+    class C(B,A):
+        def __init__(self):
+            print "entering c"
+            super(C, self).__init__()
+            print "leaving c"
+ 
+    a = C() 
+    ```
