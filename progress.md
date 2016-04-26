@@ -134,3 +134,9 @@
     ```
 
 31. 看一下 [super considered super](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)。
+
+32. If you aren’t wowed by Python’s super() builtin, chances are you don’t really know what it is capable of doing or how to use it effectively.
+
+    ```
+    若沒對 Python 的內建 super() 函式發出驚嘆，你可能還沒真正理解它的威。
+    ```
