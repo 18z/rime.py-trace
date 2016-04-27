@@ -140,3 +140,9 @@
     ```
     若沒對 Python 的內建 super() 函式發出驚嘆，你可能還沒真正理解它的威。
     ```
+
+33. Much has been written about super() and much of that writing has been a failure.
+
+    ```
+    針對 super() 有許多文章專門介紹，但這些文章都沒寫得很好。
+    ```
