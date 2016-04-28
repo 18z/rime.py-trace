@@ -146,3 +146,23 @@
     ```
     針對 super() 有許多文章專門介紹，但這些文章都沒寫得很好。
     ```
+
+34. This article seeks to improve on the situation by:
+
+    ```
+    providing practical use cases
+    提供實用範例
+    
+    giving a clear mental model of how it works
+    提供一清楚模型，解釋運作原理
+    
+    showing the tradecraft for getting it to work every time
+    展示相關技巧，有效使用方法
+    
+    concrete advice for building classes that use super()
+    當在 classes 中使用 super()，給予具體建議
+    
+    favoring real examples over abstract ABCD diamond diagrams.
+    https://zh.wikipedia.org/zh-tw/%E5%A4%9A%E9%87%8D%E7%BB%A7%E6%89%BF
+    多重繼承問題
+    ```
