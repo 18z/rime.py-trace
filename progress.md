@@ -166,3 +166,9 @@
     https://zh.wikipedia.org/zh-tw/%E5%A4%9A%E9%87%8D%E7%BB%A7%E6%89%BF
     多重繼承問題
     ```
+
+35. The examples for this post are available in both Python 2 syntax and Python 3 syntax.
+
+    ```
+    文中範例皆適用於 Python 2 及 Python 3 syntax
+    ```
