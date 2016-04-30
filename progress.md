@@ -172,3 +172,15 @@
     ```
     文中範例皆適用於 Python 2 及 Python 3 syntax
     ```
+
+36. Using Python 3 syntax, let’s start with a basic use case, a subclass for extending a method from one of the builtin classes:
+
+    ```python
+    class LoggingDict(dict):
+        def __setitem__(self, key, value):
+            logging.info('Settingto %r' % (key, value))
+            super().__setitem__(key, value)
+    ```
+    ```
+    上面是 Python 3 語法，從一個基礎的範例開始，一個 subclass 從一個 builtin class 中 extending 一個方法。
+    ```
