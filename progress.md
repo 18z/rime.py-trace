@@ -184,3 +184,9 @@
     ```
     上面是 Python 3 語法，從一個基礎的範例開始，一個 subclass 從一個 builtin class 中 extending 一個方法。
     ```
+
+37. This class has all the same capabilities as its parent, dict, but it extends the __setitem__ method to make log entries whenever a key is updated.
+
+    ```
+    此 class 繼承自 dict，它擁有所有 dict 的 capabilities，但它延伸了 __setitem__ method，to make log entries whenever a key is updated.
+    ```
