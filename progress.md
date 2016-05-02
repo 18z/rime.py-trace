@@ -190,3 +190,9 @@
     ```
     此 class 繼承自 dict，它擁有所有 dict 的 capabilities，但它延伸了 __setitem__ method，to make log entries whenever a key is updated.
     ```
+
+38. After making a log entry, the method uses super() to delegate the work for actually updating the dictionary with the key/value pair.
+
+    ```
+    __setitem__ method 用了 super() 來 delegate 更新字典中 key/value 的工作。
+    ```
