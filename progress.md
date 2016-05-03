@@ -196,3 +196,9 @@
     ```
     __setitem__ method 用了 super() 來 delegate 更新字典中 key/value 的工作。
     ```
+
+39. Before super() was introduced, we would have hardwired the call with dict.__setitem__(self, key, value). 
+
+    ```
+    在 super() 出場前，我們先用 hardwired 方式呼叫 dict.__setitem__(self, key, value)。
+    ```
