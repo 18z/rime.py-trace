@@ -202,3 +202,9 @@
     ```
     在 super() 出場前，我們先用 hardwired 方式呼叫 dict.__setitem__(self, key, value)。
     ```
+
+40.  However, super() is better because it is a computed indirect reference. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    super() 是個間接的 reference。
+    ```
