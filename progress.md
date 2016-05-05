@@ -203,8 +203,14 @@
     在 super() 出場前，我們先用 hardwired 方式呼叫 dict.__setitem__(self, key, value)。
     ```
 
-40.  However, super() is better because it is a computed indirect reference. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+40. However, super() is better because it is a computed indirect reference. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
 
     ```
     super() 是個間接的 reference。
+    ```
+
+41. One benefit of indirection is that we don’t have to specify the delegate class by name.
+
+    ```
+    優點就是，我們不用寫出 delegate class 的名字。
     ```
