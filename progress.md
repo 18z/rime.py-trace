@@ -214,3 +214,9 @@
     ```
     優點就是，我們不用寫出 delegate class 的名字。
     ```
+
+42. If you edit the source code to switch the base class to some other mapping, the super() reference will automatically follow. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    如果我們使用其他的 base class，則 super() 會自動幫我們 follow。
+    ```
