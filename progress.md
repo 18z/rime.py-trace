@@ -220,3 +220,12 @@
     ```
     如果我們使用其他的 base class，則 super() 會自動幫我們 follow。
     ```
+
+43. You have a single source of truth: 正確代表 SomeOtherMapping
+
+    ```python
+    class LoggingDict(SomeOtherMapping):            # new base class
+        def __setitem__(self, key, value):
+            logging.info('Settingto %r' % (key, value))
+            super().__setitem__(key, value)         # no change needed
+    ```
