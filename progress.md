@@ -229,3 +229,9 @@
             logging.info('Settingto %r' % (key, value))
             super().__setitem__(key, value)         # no change needed
     ```
+
+44. In addition to isolating changes, there is another major benefit to computed indirection, one that may not be familiar to people coming from static languages. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    此外，對於 computed indirection，還有一個優點是寫 static language 的人較不熟系的。
+    ```
