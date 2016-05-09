@@ -235,3 +235,9 @@
     ```
     此外，對於 computed indirection，還有一個優點是寫 static language 的人較不熟系的。
     ```
+
+45. Since the indirection is computed at runtime, we have the freedom to influence the calculation so that the indirection will point to some other class.
+
+    ```
+    indirection 都是在 runtime 時被 computed，因此，我們可以在 runtime 時影響它，使它指向其他的 class。
+    ```
