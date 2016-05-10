@@ -241,3 +241,9 @@
     ```
     indirection 都是在 runtime 時被 computed，因此，我們可以在 runtime 時影響它，使它指向其他的 class。
     ```
+
+46. The calculation depends on both the class where super is called and on the instance’s tree of ancestors. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    此計算依據 super 是在哪被呼叫及 class 的族譜。
+    ```
