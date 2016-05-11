@@ -247,3 +247,10 @@
     ```
     此計算依據 super 是在哪被呼叫及 class 的族譜。
     ```
+
+47. The first component, the class where super is called, is determined by the source code for that class.
+
+    ```
+    第一個 component，有呼叫 super 的 class，is determined by the source code for that class.
+    說實在看不懂。
+    ```
