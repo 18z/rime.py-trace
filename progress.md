@@ -254,3 +254,9 @@
     第一個 component，有呼叫 super 的 class，is determined by the source code for that class.
     說實在看不懂。
     ```
+    
+48. In our example, super() is called in the LoggingDict.__setitem__ method. 
+
+    ```
+    範例中，super() 在 LoggingDict.__setitem__method 中被呼叫。
+    ```
