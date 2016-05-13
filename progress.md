@@ -260,3 +260,9 @@
     ```
     範例中，super() 在 LoggingDict.__setitem__method 中被呼叫。
     ```
+
+49. That component is fixed. 
+
+    ```
+    該 component 是 fixed 的。
+    ```
