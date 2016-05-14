@@ -266,3 +266,9 @@
     ```
     該 component 是 fixed 的。
     ```
+
+50. The second and more interesting component is variable (we can create new subclasses with a rich tree of ancestors). [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    第二個，更有趣的 component 就是變數 (有 rich tree of ancestors，可以 create 新的 subclasses。)
+    ```
