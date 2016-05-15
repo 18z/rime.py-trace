@@ -272,3 +272,12 @@
     ```
     第二個，更有趣的 component 就是變數 (有 rich tree of ancestors，可以 create 新的 subclasses。)
     ```
+
+51. Let’s use this to our advantage to construct a logging ordered dictionary without modifying our existing classes:
+
+    ```python
+    class LoggingOD(LoggingDict, collections.OrderedDict):
+        pass
+    
+    """ 我們就用這樣的優點，再不修改既有的 classes 的情況下，來建構一個 logging ordered dictionary。
+    ```
