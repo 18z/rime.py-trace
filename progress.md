@@ -281,3 +281,9 @@
     
     """ 我們就用這樣的優點，再不修改既有的 classes 的情況下，來建構一個 logging ordered dictionary。
     ```
+
+52. The ancestor tree for our new class is: LoggingOD, LoggingDict, OrderedDict, dict, object. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    現在新 class 的 ancestor tree 就是 LoggingOD, LoggingDict, OrderedDict, dict, object。
+    ```
