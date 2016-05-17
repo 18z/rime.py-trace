@@ -287,3 +287,9 @@
     ```
     現在新 class 的 ancestor tree 就是 LoggingOD, LoggingDict, OrderedDict, dict, object。
     ```
+
+53. For our purposes, the important result is that OrderedDict was inserted after LoggingDict and before dict!
+
+    ```
+    我們的目的是讓 OrderedDict 在 LoggingDict 之後、dict 之前被 insert。(塞入 ancestor tree。)[super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+    ```
