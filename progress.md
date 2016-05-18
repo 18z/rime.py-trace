@@ -293,3 +293,9 @@
     ```
     我們的目的是讓 OrderedDict 在 LoggingDict 之後、dict 之前被 insert。(塞入 ancestor tree。)[super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
     ```
+
+54. This means that the super() call in LoggingDict.__setitem__ now dispatches the key/value update to OrderedDict instead of dict. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    這表示 LoggingDict.__setitem__ 現在動到的是 OrderedDict 的值而非 dict 的值。
+    ```
