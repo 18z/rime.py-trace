@@ -299,3 +299,9 @@
     ```
     這表示 LoggingDict.__setitem__ 現在動到的是 OrderedDict 的值而非 dict 的值。
     ```
+    
+55. Think about that for a moment.
+
+    ```
+    請稍微想一下。
+    ```
