@@ -305,3 +305,9 @@
     ```
     請稍微想一下。
     ```
+    
+56. We did not alter the source code for LoggingDict.
+
+    ```
+    我們並無修改 LoggingDict 的原始碼。
+    ```
