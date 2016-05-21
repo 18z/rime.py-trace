@@ -311,3 +311,9 @@
     ```
     我們並無修改 LoggingDict 的原始碼。
     ```
+
+57. Instead we built a subclass whose only logic is to compose two existing classes and control their search order.[super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    我們做的就是建立一個 subclass，目的在修改兩個既有 classes 並控制他們的搜尋 order。
+    ```
