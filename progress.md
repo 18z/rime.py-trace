@@ -317,3 +317,9 @@
     ```
     我們做的就是建立一個 subclass，目的在修改兩個既有 classes 並控制他們的搜尋 order。
     ```
+
+58. What I’ve been calling the search order or ancestor tree is officially known as the Method Resolution Order or MRO. 
+
+    ```
+    這種呼叫 search order 的方法或者是 ancestor tree，官方稱為 Method Resolution Order (MRO)。
+    ```
