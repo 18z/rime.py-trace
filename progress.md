@@ -323,3 +323,9 @@
     ```
     這種呼叫 search order 的方法或者是 ancestor tree，官方稱為 Method Resolution Order (MRO)。
     ```
+
+59. It’s easy to view the MRO by printing the __mro__ attribute
+
+    ```
+    可藉由 printing __mro__ 來看順序。
+    ```
