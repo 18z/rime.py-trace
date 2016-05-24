@@ -326,6 +326,18 @@
 
 59. It’s easy to view the MRO by printing the __mro__ attribute
 
-    ```
+    ```python
     可藉由 printing __mro__ 來看順序。
+    >>> pprint(LoggingOD.__mro__)
+    (<class '__main__.LoggingOD'>,
+    <class '__main__.LoggingDict'>,
+    <class 'collections.OrderedDict'>,
+    <class 'dict'>,
+    <class 'object'>)
+    ```
+
+60. If our goal is to create a subclass with an MRO to our liking, we need to know how it is calculated. [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    若我們想用 MRO，就必須了解它是如何被計算的。
     ```
