@@ -347,3 +347,9 @@
     ```
     其實很簡單。
     ```
+    
+62. The sequence includes the class, its base classes, and the base classes of those bases and so on until reaching object which is the root class of all classes.
+
+    ```
+    順序就是 class，其 base classes，base classes 的 bases，直到 object (root class)。
+    ```
