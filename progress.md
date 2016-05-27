@@ -353,3 +353,9 @@
     ```
     順序就是 class，其 base classes，base classes 的 bases，直到 object (root class)。
     ```
+
+63. The sequence is ordered so that a class always appears before its parents, and if there are multiple parents, they keep the same order as the tuple of base classes.
+
+    ```
+    這樣就讓 class 總是在其 parents class 之前，且若有多個 parents，they keep the same order as the tuple of base clasees。
+    ```
