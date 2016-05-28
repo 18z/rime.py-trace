@@ -359,3 +359,14 @@
     ```
     這樣就讓 class 總是在其 parents class 之前，且若有多個 parents，they keep the same order as the tuple of base clasees。
     ```
+
+64. The MRO shown above is the one order that follows from those constraints: [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    MRO order 有下列限制：
+    LoggingOD precedes its parents, LoggingDict and OrderedDict
+    LoggingDict precedes OrderedDict because LoggingOD.__bases__ is (LoggingDict, OrderedDict)
+    LoggingDict precedes its parent which is dict
+    OrderedDict precedes its parent which is dict
+    dict precedes its parent which is object
+    ```
