@@ -370,3 +370,9 @@
     OrderedDict precedes its parent which is dict
     dict precedes its parent which is object
     ```
+
+65. The process of solving those constraints is known as linearization.
+
+    ```
+    處理 contraints 的方法就是線性化。
+    ```
