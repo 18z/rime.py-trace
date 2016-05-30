@@ -376,3 +376,9 @@
     ```
     處理 contraints 的方法就是線性化。
     ```
+
+66. There are a number of good papers on the subject, but to create subclasses with an MRO to our liking, we only need to know the two constraints: children precede their parents and the order of appearance in __bases__ is respected.
+
+    ```
+    在此議題上有些不錯的 paper，但若用 MRO 方式建立 subclases，則有兩件事需要注意：1. children要在 parents 之前且在 ```__bases__``` 中的順序也是如此。
+    ```
