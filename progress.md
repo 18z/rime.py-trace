@@ -382,3 +382,9 @@
     ```
     在此議題上有些不錯的 paper，但若用 MRO 方式建立 subclases，則有兩件事需要注意：1. children要在 parents 之前且在 ```__bases__``` 中的順序也是如此。
     ```
+
+67. Practical Advice. super() is in the business of delegating method calls to some class in the instance’s ancestor tree.
+
+    ```
+    務實建議。super()的任務就是委派 ancestor tree 中的 class 來用。 
+    ```
