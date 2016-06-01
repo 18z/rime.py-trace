@@ -388,3 +388,9 @@
     ```
     務實建議。super()的任務就是委派 ancestor tree 中的 class 來用。 
     ```
+
+68. For reorderable method calls to work, the classes need to be designed cooperatively. 
+
+    ```
+    為了 reorderable method calls 可以 work，classes 需要被設計 cooperatively。
+    ```
