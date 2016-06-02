@@ -394,3 +394,15 @@
     ```
     為了 reorderable method calls 可以 work，classes 需要被設計 cooperatively。
     ```
+
+69.  This presents three easily solved practical issues: [super ref](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+
+    ```
+    這表示有三個容易的 practical issues 待解決。
+    * the method being called by super() needs to exist
+        被 super()呼叫的 method必須要存在。
+    * the caller and callee need to have a matching argument signature
+        caller 跟 callee 之間必須要有 matching argument signature。
+    * and every occurrence of the method needs to use super()
+        每個 occurence of the method 都必需要用 super()。
+    ```
