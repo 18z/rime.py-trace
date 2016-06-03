@@ -406,3 +406,9 @@
     * and every occurrence of the method needs to use super()
         每個 occurence of the method 都必需要用 super()。
     ```
+
+70. 1) Let’s first look at strategies for getting the caller’s arguments to match the signature of the called method. 
+
+    ```
+    讓我們先來看取得 caller's arguments to match the signature of the called method 的 strategies。
+    ```
