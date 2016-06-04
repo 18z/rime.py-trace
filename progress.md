@@ -412,3 +412,9 @@
     ```
     讓我們先來看取得 caller's arguments to match the signature of the called method 的 strategies。
     ```
+
+71. This is a little more challenging than traditional method calls where the callee is known in advance.
+
+    ```
+    這比傳統的 method calling 還要 challenging。
+    ```
