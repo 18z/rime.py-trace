@@ -418,3 +418,9 @@
     ```
     這比傳統的 method calling 還要 challenging。
     ```
+
+72. With super(), the callee is not known at the time a class is written (because a subclass written later may introduce new classes into the MRO).
+
+    ```
+    用 super()，在撰寫 class 時，被呼叫者是 known 的 (因為之後寫的 subclass 可能會 introduce 新的 class 在 MRO 中)。
+    ```
