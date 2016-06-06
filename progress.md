@@ -424,3 +424,9 @@
     ```
     用 super()，在撰寫 class 時，被呼叫者是 known 的 (因為之後寫的 subclass 可能會 introduce 新的 class 在 MRO 中)。
     ```
+
+73. One approach is to stick with a fixed signature using positional arguments.
+
+    ```
+    一方法為巴著一 fixed signature using positional arguments。 
+    ```
