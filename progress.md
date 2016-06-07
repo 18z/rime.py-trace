@@ -430,3 +430,9 @@
     ```
     一方法為巴著一 fixed signature using positional arguments。 
     ```
+
+74. This works well with methods like __setitem__ which have a fixed signature of two arguments, a key and a value. 
+
+    ```
+    這與 ```__setitem__``` method 搭配起來很好用，它有固定兩個參數，key and value。
+    ```
