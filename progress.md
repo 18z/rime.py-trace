@@ -436,3 +436,9 @@
     ```
     這與 ```__setitem__``` method 搭配起來很好用，它有固定兩個參數，key and value。
     ```
+
+75. This technique is shown in the LoggingDict example where __setitem__ has the same signature in both LoggingDict and dict.
+
+    ```
+    此技巧在 LoggingDict 中有用到。
+    ```
