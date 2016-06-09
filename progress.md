@@ -442,3 +442,9 @@
     ```
     此技巧在 LoggingDict 中有用到。
     ```
+
+76. A more flexible approach is to have every method in the ancestor tree cooperatively designed to accept keyword arguments and a keyword-arguments dictionary, to remove any arguments that it needs, and to forward the remaining arguments using **kwds, eventually leaving the dictionary empty for the final call in the chain.
+
+    ```
+    有講到一個更彈性的作法，但是看不懂。
+    ```
