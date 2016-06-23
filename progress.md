@@ -452,3 +452,5 @@
 77. 決定停止看 python consider super
 
 78. 參考日文輸入法 [ibus-anthy](https://github.com/phuang/ibus-anthy) 兩邊交叉比對。有助學習。 
+
+79. 用 ```sudo apt-get install ibus-anthy``` 裝起來了。
