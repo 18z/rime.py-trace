@@ -454,3 +454,7 @@
 78. 參考日文輸入法 [ibus-anthy](https://github.com/phuang/ibus-anthy) 兩邊交叉比對。有助學習。 
 
 79. 用 ```sudo apt-get install ibus-anthy``` 裝起來了。
+
+80. (ibus-uniemoji)[https://github.com/salty-horse/ibus-uniemoji] 似乎更簡單。
+
+81. ```self.cursor_down()``` 改成 ```self.commit_string(self.preedit_string) ``` 有如預期。
